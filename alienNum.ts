@@ -1,5 +1,5 @@
 function alienNum(s: string): number {
-  const alienNumbersArrayObj = {
+  const alienNumbersArrayObj: Record<string, number> = {
     A: 1,
     B: 5,
     Z: 10,
